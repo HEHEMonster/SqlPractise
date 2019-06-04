@@ -1,0 +1,12 @@
+CREATE PROCEDURE lianxi(@id int)
+AS 
+BEGIN 
+    SET NOCOUNT ON;
+    BEGIN TRY
+        SELECT * FROM STUDENT
+    END TRY
+    BEGIN CATCH
+        
+    END CATCH
+
+END
